@@ -1,0 +1,32 @@
+name: uso_json
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/data_scrum.json
+    - assets/images/product_backlog.png
+    - assets/images/sprint.png
+    - assets/images/daily_scrum.png
+    - assets/images/product_owner.png
+    - assets/images/scrum_master.png
+    - assets/images/sprint_planning.png
+    - assets/images/sprint_review.png
+    - assets/images/sprint_retrospective.png
+    - assets/images/definition_of_done.png
+    - assets/images/user_story.png
+  uses-material-design: true
+
